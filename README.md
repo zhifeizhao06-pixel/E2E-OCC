@@ -26,7 +26,7 @@ Our framework significantly enhances **generalizability**, **safety**, **interpr
 ## 🏛️ Framework Overview
 
 <p align="center">
-  <img src="assets/main_framework.png" width="900">
+  <img src="image/f1.png" width="900">
 </p>
 
 **Figure:** Overview of our language-guided diffusion planner.  
