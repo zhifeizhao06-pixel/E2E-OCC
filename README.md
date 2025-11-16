@@ -39,7 +39,7 @@ The architecture fuses multi-modal perception (RGB, LiDAR), vehicle state, learn
 ### 1. Comparison with Baselines
 
 <p align="center">
-  <img src="assets/qualitative_compare.png" width="900">
+  <video src="movie.mp4.mp4" controls="controls" width="500" height="300"></video>
 </p>
 
 **Figure:** Comparison with representative baseline planners.  
