@@ -15,12 +15,11 @@ This repository provides visual demonstrations and supplementary materials for t
 ## 📣 Overview
 We propose an integrated training scheme that jointly optimizes occupancy feature extraction and latent spatiotemporal modeling via diffusion, mitigating the information bottleneck of conventional VAE-based methods and enhancing the model’s performance:
 
-- **High-level semantic driving instructions** extracted using a Vision-Language Model (Qwen2.5-VL)
-- **Agent-aware spatial distribution cues** projected onto a BEV map
-- **Dynamic trajectory initialization** for more structured, adaptive diffusion sampling
-- **Conditional diffusion decoding** that improves interpretability, rationality, and intent alignment
+- **We design a novel feature extraction network tailored for dynamic scene modeling, which adapts to 4D discrete voxel representations and improves feature retention in sparse environments.** 
+- **We introduce a diffusion training paradigm augmented by dynamic distillation to balance performance and efficiency, accelerating convergence and boosting feature robustness.**
 
-Our framework significantly enhances **generalizability**, **safety**, **interpretability**, and **trajectory consistency** across complex driving scenarios.
+
+
 
 ---
 ---
