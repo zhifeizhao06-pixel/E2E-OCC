@@ -62,6 +62,8 @@ Semantic cues enforce stronger intent consistency and reduce ambiguous planning 
 
 <p align="center">
   <img src="assets/conflict_detection.png" width="700">
+  ![Alt text](https://github.com/zhifeizhao06-pixel/E2E-OCC/edit/main/image/v1.mp4)
+  https://github.com/zhifeizhao06-pixel/E2E-OCC/edit/main/image/v1.mp4
 </p>
 
 **Figure:** Our DIFM module resolves conflicts between semantic direction (`f_dir`) and interaction fields (`f_interact`), improving safety around dynamic agents.
