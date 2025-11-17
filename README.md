@@ -52,6 +52,11 @@ Our method produces more consistent, scene-aware, and drivable trajectories (red
 ## 📊 Quantitative Summary
 
 Below is a sample table (replace values with your own or substitute with a figure such as `assets/table_results.png`):
+
+
+要在 GitHub README 中以**表格形式展示第二张图的内容**，可以使用 Markdown 表格语法。以下是适配 GitHub 显示的 Markdown 表格代码：
+
+
 | Method    | Input  | \multicolumn{5}{c}{MIOU(\%)↑} | \multicolumn{5}{c}{IOU(\%)↑} |
 |-----------|--------|---------|------|-------|------|------|---------|------|-------|------|------|
 |           |        | Recon.  | 1s   | 2s    | 3s   | Avg. | Recon.  | 1s   | 2s    | 3s   | Avg. |
@@ -63,7 +68,7 @@ Below is a sample table (replace values with your own or substitute with a figur
 | Ours-O    | Occ    | 76.10   | 31.60| 22.45 | 17.88| 23.92| 71.62   | 39.34| 31.77 | 27.01| 32.60|
 
 
----
+将这段代码直接粘贴到 GitHub README.md 文件中，即可自动渲染为清晰的表格，与原图的布局和内容完全一致。
 
 
 
