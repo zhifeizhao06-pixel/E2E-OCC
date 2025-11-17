@@ -3,7 +3,7 @@
 
 This repository provides visual demonstrations and supplementary materials for the paper:
 
-** E2EOcc: End-to-End 4D Occupancy World Modeling with Unified Spatiotemporal Diffusion**
+**E2EOcc: End-to-End 4D Occupancy World Modeling with Unified Spatiotemporal Diffusion**
 
 **Code will be released upon acceptance.**
 <p align="center">
