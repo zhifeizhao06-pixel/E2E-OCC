@@ -27,8 +27,7 @@ We propose an integrated training scheme that jointly optimizes occupancy featur
   <img src="image/f1.png" width="900">
 </p>
 
-**Figure:** Overview of our language-guided diffusion planner.  
-The architecture fuses multi-modal perception (RGB, LiDAR), vehicle state, learned semantic cues, and agent-aware priors to guide diffusion-based trajectory generation.
+**Figure:** Overview of the E2EOcc framework. The pipeline consists of two main branches: a semantic feature extraction branchand a diffusion-based prediction branch. These branches are jointly optimized through a dynamic feature alignment mechanismto enable fully end-to-end learning.
 
 ---
 
