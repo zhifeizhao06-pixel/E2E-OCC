@@ -1,12 +1,14 @@
 # E2E-OCC
 
-# Semantic-AD
 
 This repository provides visual demonstrations and supplementary materials for the paper:
 
 **Interpretable and Generalizable Diffusion Planning via Vision-Language Guidance and Agent-Aware Trajectory Initialization**
 
 **Code will be released upon acceptance.**
+<p align="center">
+  <img src="image/f2.jpg" width="900">
+</p>
 
 ---
 
