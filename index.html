@@ -253,10 +253,15 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-           Accurate 6D pose estimation of diverse objects is critical for the successful execution of robotic manipulation tasks.
-            Category-level 6D object pose and size estimation methods have attracted substantial research attention within precision robotic manipulation domains,
-            demonstrating capability in estimating poses for unseen objects. Nevertheless, most existing methods heavily rely on large-scale annotated datasets or synthetic data, resulting in severely limited generalization performance when confronted with data scarcity or cross-domain distribution differences. To address this limitation, we propose a geometry-guided category-level pose and size estimation based on self-supervised learning, without utilizing real-world label information. Specifically,Extensive quantitative and qualitative experiments conducted on REAL275 and Wild6D demonstrate the effectiveness and efficiency of our proposed method.
-            Moreover, we apply the proposed method to the grasping task based on the Aubo robotic arm. The proposed method also achieves remarkable performance in the real-world experiment.
+           Understanding the dynamic evolution of 3D scenes is crucial for developing robust autonomous driving systems. 
+            Recently, world models built upon 3D occupancy representations have garnered significant attention due to their superior capabilities in spatial modeling. 
+            However, existing approaches suffer from key limitations. Autoregressive strategies struggle to capture long-term temporal dependencies and are inefficient with high-dimensional inputs.
+            Diffusion-based two-stage frameworks, on the other hand, are limited by the reconstruction quality of the pre-trained Variational Autoencoder (VAE). 
+            This pre-trained VAE introduces a significant information bottleneck, compromising overall modeling performance and generalization. 
+            Furthermore, we observe that even for end-to-end training of VAE and diffusion components in latent diffusion models, employing standard diffusion losses is often ineffective and can even degrade final performance, underscoring the critical need for effective feature alignment optimization strategies. 
+            To address these challenges, we propose E2EOcc, the first end-to-end diffusion-based framework for 4D occupancy modeling. Our approach introduces a novel semantically-aware diffusion architecture that incorporates both cross-branch feature alignment mechanisms and dedicated representation alignment losses.
+            This design effectively mitigates the performance bottleneck introduced by the VAE, significantly enhancing the model's spatio-temporal consistency and generalization capacity. Experimental results on the nuScenes-Occupancy dataset demonstrate that, to our knowledge, E2EOcc achieves state-of-the-art performance in 4D world modeling tasks. 
+            Quantitatively, it sets a new benchmark for 4D occupancy prediction with a IoU of 32.6 and an mIoU of 23.9. For the benefit of the community, we will make the source code public.
           </p>
         </div>
       </div>
