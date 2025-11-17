@@ -3,7 +3,7 @@
 
 This repository provides visual demonstrations and supplementary materials for the paper:
 
-**Interpretable and Generalizable Diffusion Planning via Vision-Language Guidance and Agent-Aware Trajectory Initialization**
+** E2EOcc: End-to-End 4D Occupancy World Modeling with Unified Spatiotemporal Diffusion**
 
 **Code will be released upon acceptance.**
 <p align="center">
