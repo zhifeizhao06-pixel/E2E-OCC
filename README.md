@@ -19,9 +19,6 @@ We propose an integrated training scheme that jointly optimizes occupancy featur
 - **We introduce a diffusion training paradigm augmented by dynamic distillation to balance performance and efficiency, accelerating convergence and boosting feature robustness.**
 
 
-
-
----
 ---
 
 ## 🏛️ Framework Overview
