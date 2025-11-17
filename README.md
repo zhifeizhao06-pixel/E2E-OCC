@@ -52,12 +52,16 @@ Our method produces more consistent, scene-aware, and drivable trajectories (red
 ## 📊 Quantitative Summary
 
 Below is a sample table (replace values with your own or substitute with a figure such as `assets/table_results.png`):
+| Method    | Input  | \multicolumn{5}{c}{MIOU(\%)↑} | \multicolumn{5}{c}{IOU(\%)↑} |
+|-----------|--------|---------|------|-------|------|------|---------|------|-------|------|------|
+|           |        | Recon.  | 1s   | 2s    | 3s   | Avg. | Recon.  | 1s   | 2s    | 3s   | Avg. |
+| OccWorld-F| Camera | 20.09   | 8.03 | 6.91  | 3.54 | 6.16 | 35.61   | 23.62| 18.13 | 15.22| 18.99|
+| OccWorld-O| Occ    | 66.38   | 25.78| 15.14 | 10.51| 17.14| 62.29   | 34.63| 25.07 | 20.18| 26.63|
+| OccLLaMA-F| Camera | 37.38   | 10.34| 8.66  | 6.98 | 8.66 | 38.92   | 25.81| 23.19 | 19.47| 22.99|
+| OccLLaMA-O| Occ    | 75.20   | 25.05| 19.49 | 15.26| 19.93| 63.76   | 34.56| 28.53 | 20.91| 29.17|
+| Ours-F    | Camera | 42.36   | 16.59| 12.71 | 8.29 | 12.53| 41.27   | 29.01| 25.73 | 23.02| 25.92|
+| Ours-O    | Occ    | 76.10   | 31.60| 22.45 | 17.88| 23.92| 71.62   | 39.34| 31.77 | 27.01| 32.60|
 
-| Method         | NC ↑  | DAC ↑ | TTC ↑ | Comf. ↑ | EP ↑  | PDMS ↑ |
-|----------------|-------|-------|-------|---------|-------|--------|
-| TransFuser     | 97.7  | 92.8  | 92.8  | 100     | 79.2  | 84.0   |
-| DiffusionDrive | 98.2  | 96.2  | 94.7  | 100     | 82.2  | 88.1   |
-| **Ours**       | **99.3** | **96.4** | **96.5** | **100** | **84.5** | **90.4** |
 
 ---
 
