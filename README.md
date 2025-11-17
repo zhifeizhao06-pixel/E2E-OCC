@@ -13,7 +13,7 @@ This repository provides visual demonstrations and supplementary materials for t
 ---
 
 ## 📣 Overview
-We propose a vision-language guided diffusion planning framework for autonomous driving, integrating:
+We propose an integrated training scheme that jointly optimizes occupancy feature extraction and latent spatiotemporal modeling via diffusion, mitigating the information bottleneck of conventional VAE-based methods and enhancing the model’s performance:
 
 - **High-level semantic driving instructions** extracted using a Vision-Language Model (Qwen2.5-VL)
 - **Agent-aware spatial distribution cues** projected onto a BEV map
