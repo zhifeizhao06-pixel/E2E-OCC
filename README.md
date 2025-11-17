@@ -54,9 +54,6 @@ Our method produces more consistent, scene-aware, and drivable trajectories (red
 Below is a sample table (replace values with your own or substitute with a figure such as `assets/table_results.png`):
 
 
-要在 GitHub README 中以**表格形式展示第二张图的内容**，可以使用 Markdown 表格语法。以下是适配 GitHub 显示的 Markdown 表格代码：
-
-
 | Method    | Input  | Recon. (MIOU) | 1s (MIOU) | 2s (MIOU) | 3s (MIOU) | Avg. (MIOU) | Recon. (IOU) | 1s (IOU) | 2s (IOU) | 3s (IOU) | Avg. (IOU) |
 |-----------|--------|---------------|-----------|-----------|-----------|-------------|---------------|-----------|-----------|-----------|-------------|
 | OccWorld-F| Camera | 20.09         | 8.03      | 6.91      | 3.54      | 6.16        | 35.61         | 23.62     | 18.13     | 15.22     | 18.99       |
@@ -64,9 +61,7 @@ Below is a sample table (replace values with your own or substitute with a figur
 | OccLLaMA-F| Camera | 37.38         | 10.34     | 8.66      | 6.98      | 8.66        | 38.92         | 25.81     | 23.19     | 19.47     | 22.99       |
 | OccLLaMA-O| Occ    | 75.20         | 25.05     | 19.49     | 15.26     | 19.93        | 63.76         | 34.56     | 28.53     | 20.91     | 29.17       |
 | Ours-F    | Camera | 42.36         | 16.59     | 12.71     | 8.29      | 12.53        | 41.27         | 29.01     | 25.73     | 23.02     | 25.92       |
-| Ours-O    | Occ    | 76.10         | 31.60     | 22.45     | 17.88     | 23.92        | 71.62         | 39.34     | 31.77     | 27.01     | 32.60       |
-
-将这段代码直接粘贴到 GitHub README.md 文件中，即可自动渲染为清晰的表格，与原图的布局和内容完全一致。
+| Ours-O    | Occ    | **76.10**     | **31.60** | **22.45** | **17.88** | **23.92**    | **71.62**     | **39.34** | **31.77** | **27.01** | **32.60**   |
 
 
 
