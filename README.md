@@ -7,7 +7,7 @@ This repository provides visual demonstrations and supplementary materials for t
 
 **Code will be released upon acceptance.**
 <p align="center">
-  <img src="image/f1.jpg" width="900">
+  <img src="image/f1.1.jpg" width="900">
 </p>
 
 ---
@@ -24,7 +24,7 @@ We propose an integrated training scheme that jointly optimizes occupancy featur
 ## 🏛️ Framework Overview
 
 <p align="center">
-  <img src="image/f1.png" width="900">
+  <img src="image/f2.jpg" width="900">
 </p>
 
 **Figure:** Overview of the E2EOcc framework. The pipeline consists of two main branches: a semantic feature extraction branchand a diffusion-based prediction branch. These branches are jointly optimized through a dynamic feature alignment mechanismto enable fully end-to-end learning.
