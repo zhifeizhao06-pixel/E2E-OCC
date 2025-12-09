@@ -7,7 +7,7 @@ This repository provides visual demonstrations and supplementary materials for t
 
 **Code will be released upon acceptance.**
 <p align="center">
-  <img src="image/f2.jpg" width="900">
+  <img src="image/f1.jpg" width="900">
 </p>
 
 ---
